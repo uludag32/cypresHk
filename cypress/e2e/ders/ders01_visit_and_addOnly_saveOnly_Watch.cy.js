@@ -9,6 +9,7 @@ describe('cy.visit addOnly saveOnly watchForFileChanges', () => {
             
             });
 
+            
     it('cy.visit shortcut', () => {
         cy.visit(`/`)
     });
