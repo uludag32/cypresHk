@@ -1,4 +1,4 @@
-import { GoToMainPage } from "../../methods/gotomainPage";
+import { GoToMainPage } from './GoToMainPage';
 const homePage = new GoToMainPage
 import homePageLocates from "../../locates/homePageLocates";
 

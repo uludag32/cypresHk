@@ -1,4 +1,3 @@
-
 class HomePageLocates{
     goToHomePageLink(){
      cy.visit("/");

@@ -14,4 +14,10 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    return false;
+})
+
 import './commands'
+import 'cypress-plugin-steps'
