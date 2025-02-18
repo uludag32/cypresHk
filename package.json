@@ -12,7 +12,8 @@
   "type": "commonjs",
   "devDependencies": {
     "chai": "^5.2.0",
-    "cypress": "^14.0.3"
+    "cypress": "^14.0.3",
+    "cypress-file-upload": "^5.0.8"
   },
   "dependencies": {
     "cypress-plugin-steps": "^1.1.1"
